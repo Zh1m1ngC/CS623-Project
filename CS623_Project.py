@@ -20,7 +20,7 @@ try:
 
     # Add a new depot to the Depot table
     cur.execute("""
-        INSERT INTO Depot (#dep, city, capacity)
+        INSERT INTO Depot (#dep, addr, volume)
         VALUES ('d100', 'Chicago', 100)
     """)
 
