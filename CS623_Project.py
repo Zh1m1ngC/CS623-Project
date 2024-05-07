@@ -1,3 +1,6 @@
+# Add a depot (d100, Chicago, 100) in Depot and (p1, d100, 100) in Stock
+
+# import psycog2 to manipulate PostgreSQL using Python
 import psycopg2
 
 # Connect to PostgreSQL database
